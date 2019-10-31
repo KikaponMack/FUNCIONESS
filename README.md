@@ -62,4 +62,26 @@ Código FuncioneS
         }
      } while (bandera != true);
   }
+  void pausa()
+  { 
+  cout << endl << "Pulsa cualquier tecla para salir";
+  getwchar();
+  getwchar();
+  }
+  int suma()
+  {
+  int a, b, suma;
+  cout << "Primer valor:";
+  cin >> a;
+  cout << "Segundo valor:";
+  cin >> b;
+  suma = a + b;
+  cout << "La suma es:" <<suma;
+  pausa();
+  return 0;
+  }
+  
+  
+  
+  
   
