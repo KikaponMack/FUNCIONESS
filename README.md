@@ -55,8 +55,11 @@ Código FuncioneS
      bandera = true;
      break;
   default:
+       system("cls";
+       cout << "Opcion no valida" << endl;
+       pausa();
        break;
         }
-     }
+     } while (bandera != true);
   }
   
